@@ -1,60 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Жавлон Мамуржонов | Веб-разработчик</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Портфолио Жавлона</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    .project-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Жавлон Мамуржонов</h1>
+    <p>Frontend / Backend разработчик</p>
+  </header>
+
   <div class="container">
-    <header>
-      <div class="avatar">
-        <img src="avatar.jpg" alt="Жавлон Мамуржонов">
-      </div>
-      <h1>Жавлон Мамуржонов</h1>
-      <p>@javxzn</p>
-      <p>javafan86@gmail.com</p>
-      <p><a href="https://t.me/javxzn" target="_blank">Telegram</a> | <a href="https://instagram.com/javxzn" target="_blank">Instagram</a></p>
-    </header>
+    <h2>Примеры работ</h2>
 
-    
-<section>
-  <h2>Обо мне</h2>
-  <p>Привет! Меня зовут Жавлон. Я начинающий веб-разработчик, активно развиваюсь в сфере frontend и backend. Уже создаю сайты на HTML и CSS, а также изучаю языки программирования, которые востребованы в реальной работе: JavaScript, Python и основы backend-разработки с помощью Node.js и Flask. 
-
-  Быстро прокачиваю навыки и готов брать небольшие заказы для практики. Цель — стать универсальным разработчиком, который умеет делать всё: от дизайна до серверной части. Всегда рад новым проектам и интересному опыту.</p>
-</section>
-
-
-    <section>
-      <h2>Услуги</h2>
-      <ul>
-        <li>Адаптивная верстка HTML/CSS</li>
-        <li>Создание лендингов</li>
-        <li>Страница-портфолио или визитка</li>
-        <li>Загрузка сайта на GitHub Pages</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Примеры работ</h2>
-      <ul>
-        <li><a href="works.html">Посмотреть мои проекты</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Контакты</h2>
-      <p>📧 Email: javafan86@gmail.com</p>
-      <p>📱 Telegram: <a href="https://t.me/javxzn">@javxzn</a></p>
-      <p>📸 Instagram: <a href="https://instagram.com/javxzn">@javxzn</a></p>
-    </section>
-
-    <div class="contact-button">
-      <a href="https://t.me/javxzn" target="_blank">Заказать сайт</a>
+    <div class="project-card">
+      <h3>Калькулятор</h3>
+      <p>Простой веб-калькулятор, реализованный на HTML, CSS и JavaScript.</p>
+      <a href="calculator/index.html" target="_blank">Открыть калькулятор</a>
     </div>
+
+    <!-- Другие работы можно добавить сюда -->
   </div>
 </body>
 </html>
